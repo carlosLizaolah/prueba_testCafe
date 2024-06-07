@@ -8,6 +8,6 @@ fixture('El Rosario').page('https://aplatamqa.com/portal-alumno/login?schoolId=3
 
 test('Crear lead', async t => {
 
-	await NewLead.createLead('prueba240517001@prueba.com', 'Test.123', 'Test.123', 'Prueba', 'Prueba', '6016014567');
+	await NewLead.createLead('prueba240517002@prueba.com', 'Test.123', 'Test.123', 'Prueba', 'Prueba', '6016014567');
 
 });
